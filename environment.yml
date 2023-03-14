@@ -1,0 +1,12 @@
+name: iris-flowers
+dependencies:
+  - black
+  - flake8
+  - isort
+  - pip
+  - setuptools
+  - wheel
+  - pip:
+    - python-dotenv
+    - -e .
+  - python=3.10
